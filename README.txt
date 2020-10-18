@@ -11,3 +11,7 @@ Username:  admin
 Password:  1234
 
 Please refrain from running "get-all" as the Server does not have the memory capacity to cope.
+
+##  Missing due to time
+- ErrorHandling via RestControllerAdvice 
+    -  This should graciously handle the different HttpStatuses including 401 / 403 - which should link to the Security setup
