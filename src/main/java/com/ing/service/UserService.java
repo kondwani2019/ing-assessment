@@ -32,7 +32,7 @@ public class UserService implements IUserService{
 	private UserRepository userRepository;
 	
 	@Autowired
-    private JmsTemplate jmsTemplate;
+    	private JmsTemplate jmsTemplate;
 	
 	@Value(value="${ing.user.save.topic}")
 	private String userSaveTopic;
