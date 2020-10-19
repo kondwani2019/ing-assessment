@@ -15,3 +15,7 @@ Please refrain from running "get-all" as the Server does not have the memory cap
 ##  Missing due to time
 - ErrorHandling via RestControllerAdvice 
     -  This should graciously handle the different HttpStatuses including 401 / 403 - which should link to the Security setup
+- Time required to write WebMock Tests for Integration
+    -  Required Integration Test to check that UnitTest happens - currently was tested manually by violating a SQL Unique constraint
+    
+    
